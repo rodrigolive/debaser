@@ -1,0 +1,29 @@
+{
+  "source": {
+    "type": "sqlite",
+    "file": "./production.db"
+  },
+  "destination": {
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "database": "test_db",
+    "username": "root",
+    "password": "secret"
+  },
+  "tables": [
+    {
+      "name": "users",
+      "anonymizeFields": ["email", "name", "phone"],
+      "excludeFields": ["password"],
+      "batchSize": 1000
+    },
+    {
+      "name": "orders",
+      "anonymizeFields": ["customer_email"],
+      "batchSize": 2000
+    }
+  ],
+  "batchSize": 1000,
+  "parallel": 1
+}

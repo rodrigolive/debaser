@@ -1,0 +1,39 @@
+source:
+  type: mysql
+  host: localhost
+  port: 3306
+  database: production_db
+  username: root
+  password: secret
+
+destination:
+  type: postgresql
+  host: localhost
+  port: 5432
+  database: test_db
+  username: postgres
+  password: secret
+
+tables:
+  - name: users
+    anonymizeFields:
+      - email
+      - first_name
+      - last_name
+      - phone
+    excludeFields:
+      - password_hash
+    batchSize: 500
+
+  - name: orders
+    anonymizeFields:
+      - customer_email
+      - shipping_address
+    batchSize: 1000
+
+  - name: products
+    # No anonymization needed for products
+    batchSize: 2000
+
+batchSize: 1000
+parallel: 2
