@@ -103,3 +103,7 @@ test-data/
 .agent
 .topic
 .prompt
+
+# Backup files
+*.backup
+*backup*

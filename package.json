@@ -26,6 +26,14 @@
   ],
   "author": "rodrigolive",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigolive/debaser.git"
+  },
+  "homepage": "https://github.com/rodrigolive/debaser#readme",
+  "bugs": {
+    "url": "https://github.com/rodrigolive/debaser/issues"
+  },
   "engines": {
     "node": ">=16.0.0"
   },

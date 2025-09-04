@@ -2,6 +2,10 @@
 
 A powerful database migration tool that moves data between different database engines while automatically anonymizing sensitive information. Debaser supports streaming data processing to handle large datasets without memory issues.
 
+[![GitHub](https://img.shields.io/github/license/rodrigolive/debaser)](https://github.com/rodrigolive/debaser/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/rodrigolive/debaser)](https://github.com/rodrigolive/debaser/issues)
+[![GitHub stars](https://img.shields.io/github/stars/rodrigolive/debaser)](https://github.com/rodrigolive/debaser)
+
 ## Features
 
 - **Multi-Database Support**: Works with MySQL, PostgreSQL, and SQLite
@@ -278,17 +282,92 @@ Debaser provides detailed error messages and graceful error handling:
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
+We welcome contributions to Debaser! Here's how you can help:
+
+### Getting Started
+
+1. **Fork the repository** on GitHub
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/your-username/debaser.git
+   cd debaser
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Create a feature branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+### Development Workflow
+
+1. **Make your changes** following our coding standards
+2. **Add tests** for any new functionality
+3. **Run the test suite**:
+   ```bash
+   npm test
+   ```
+4. **Run linting**:
+   ```bash
+   npm run lint
+   ```
+5. **Build the project**:
+   ```bash
+   npm run build
+   ```
+
+### Submitting Changes
+
+1. **Commit your changes** with a clear commit message:
+   ```bash
+   git commit -m "Add feature: brief description"
+   ```
+2. **Push to your fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+3. **Create a Pull Request** on GitHub with:
+   - A clear title and description
+   - Reference to any related issues
+   - Screenshots or examples if applicable
+
+### Code Standards
+
+- Follow the existing code style and patterns
+- Write clear, self-documenting code
+- Add JSDoc comments for public APIs
+- Ensure all tests pass
+- Update documentation as needed
+
+### Types of Contributions
+
+- **Bug fixes**: Report issues and submit fixes
+- **New features**: Propose and implement new functionality
+- **Documentation**: Improve README, API docs, or examples
+- **Tests**: Add test coverage for existing or new code
+- **Performance**: Optimize existing functionality
+
+### Questions or Need Help?
+
+- Open an [issue](https://github.com/rodrigolive/debaser/issues) for bugs or feature requests
+- Start a [discussion](https://github.com/rodrigolive/debaser/discussions) for questions
+- Check existing issues and discussions first
+
+Thank you for contributing to Debaser! 🚀
 
 ## License
 
-MIT License - see LICENSE file for details.
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Author
 
-Rodrigo González
+Rodrigo González  
 Created by [rodrigolive](https://github.com/rodrigolive)
+
+---
+
+**Repository**: [https://github.com/rodrigolive/debaser](https://github.com/rodrigolive/debaser)  
+**Issues**: [https://github.com/rodrigolive/debaser/issues](https://github.com/rodrigolive/debaser/issues)  
+**Discussions**: [https://github.com/rodrigolive/debaser/discussions](https://github.com/rodrigolive/debaser/discussions)
