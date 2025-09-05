@@ -1,6 +1,6 @@
 {
   "name": "@rodrigolive/debaser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Database migration tool that moves data between databases while anonymizing sensitive information",
   "main": "dist/index.js",
   "bin": {
@@ -40,7 +40,6 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^11.1.0",
-    "debaser": "file:debaser-1.0.0.tgz",
     "mysql2": "^3.6.5",
     "ora": "^5.4.1",
     "pg": "^8.11.3",
